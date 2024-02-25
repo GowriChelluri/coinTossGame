@@ -1,0 +1,51 @@
+.bg-container {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  height: 100vh;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.card-container {
+  min-height: 400px;
+  width: 600px;
+  border-radius: 10px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.coin-img {
+  height: 170px;
+  width: 170px;
+}
+.heading {
+  color: #a35200;
+  font-size: 40px;
+  padding-top: 20px;
+}
+.description {
+  color: #334155;
+  font-size: 18px;
+  font-weight: 500;
+}
+.btn {
+  height: 30px;
+  width: 90px;
+  padding: 8px;
+  border-radius: 8px;
+  background-color: #f9d423;
+  color: #a35200;
+  border-width: 0px;
+}
+.counts-container {
+  display: flex;
+}
+.count {
+  color: #475569;
+  font-size: 15px;
+  font-weight: 500;
+  margin-right: 20px;
+}
